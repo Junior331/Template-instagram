@@ -88,9 +88,11 @@ body{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.public img{
-    width: 614px;
-    height: auto;
+.public{
+    background-image: url(../img/public.jpg);
+    background-size: cover;
+    height: 75vh;
+    width: 75vh;
 }
 .nav-icons2 img {
     height: 35px;
@@ -128,10 +130,26 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.445);
-    
 }
 
-@media (max-width:945px){
+.none-store{
+    display: none;
+}
+    
+    
+
+
+@media (max-width:1362px){
+    .none-store{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid darkgray;
+    border-top: none;
+    height: 80px;
+    background-color: rgb(241, 241, 241);
+    }
+
     .pesq-div{
         display: none;
     }
@@ -141,10 +159,38 @@ body{
     }
 
 }
-@media (max-width:674px){
+@media (max-width:611px){
 
- .public img{
-    width: 56vh;
-    height: auto;
+    .public{
+        background-size: cover;
+        height: 60vh;
+    width: 60vh;
+
+    }
+ 
+
 }
+
+@media (max-width:487px){
+
+    .public{
+        background-size: cover;
+        height: 50vh;
+    width: 50vh;
+
+    }
+ 
+
+}
+
+@media (max-width:376px){
+
+    .public{
+        background-size: cover;
+        height: 50vh;
+    width: 40vh;
+
+    }
+ 
+
 }
