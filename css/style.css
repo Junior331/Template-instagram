@@ -148,8 +148,20 @@ body{
     border-top: none;
     height: 80px;
     background-color: rgb(241, 241, 241);
+
     }
 
+    
+    .none-store ul{
+        list-style: none;
+        padding: 0px 0px 0px;
+
+    }
+    .none-store ul li img{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+    }
     .pesq-div{
         display: none;
     }
