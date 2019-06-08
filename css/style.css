@@ -19,7 +19,7 @@ body{
     border: solid darkgray;
     border-top: none;
     height: 80px;
-    width: 100%;git
+    width: 100%;
     background-color: white;
 }
 .flex-sty{
@@ -75,7 +75,7 @@ body{
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    width: 660px ;
+    width: 660px auto ;
     height: 70px auto; 
     border: solid rgba(39, 37, 37, 0.425) 0.1px; 
   } 
