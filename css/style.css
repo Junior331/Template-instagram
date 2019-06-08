@@ -225,6 +225,7 @@ body{
     border: solid darkgray;
     border-top: none;
     height: 80px;
+    width: 100%;
     background-color: rgb(241, 241, 241);
 
     }
