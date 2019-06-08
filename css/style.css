@@ -254,7 +254,7 @@ body{
     .public{
         background-size: cover;
         height: 60vh;
-    width: 60vh;
+    width: 100%;
 
     }
  
