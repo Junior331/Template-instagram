@@ -267,7 +267,7 @@ body{
     .public{
         background-size: cover;
         height: 50vh;
-    width: 50vh;
+    width: 100%;
 
     }
  
@@ -279,7 +279,7 @@ body{
     .public{
         background-size: cover;
         height: 50vh;
-    width: 40vh;
+    width: 100%;
 
     }
  
