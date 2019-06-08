@@ -37,7 +37,7 @@ body{
     transition: 0.2s;
 }
 .flex-sty .nav-imgs-log{
-    height: 45px;
+    height: 43px;
 }
 .nav-icon img{
     padding: 0px 10px 0px;
@@ -214,7 +214,7 @@ body{
     
 
 
-@media (max-width:800px){
+@media (max-width:1384px){
     .none-store{
         display: flex;
     justify-content: space-around;
@@ -245,40 +245,25 @@ body{
         display: inline; 
         font-size: 24px;
     }
-
-}
-@media (max-width:611px){
-
     .public{
         background-size: cover;
-        height: 60vh;
-    width: 100%;
-
-    }
- 
-
+        height: 50vh;
+    width:85vh;}
 }
 
-@media (max-width:487px){
+@media (max-width:1186px){
+    .public{
+        background-size: cover;
+        height:50vh;
+    width: 71vh;}
+}
+
+@media (max-width:977px){
 
     .public{
         background-size: cover;
         height: 50vh;
     width: 100%;
-
-    }
- 
-
 }
-
-@media (max-width:376px){
-
-    .public{
-        background-size: cover;
-        height: 50vh;
-    width: 100%;
-
-    }
- 
 
 }
