@@ -222,9 +222,9 @@ body{
 @media (max-width:1384px){
     .none-store{
         display: flex;
-    justify-content: space-around;
     align-items: center;
-    border: solid darkgray;
+    justify-content: center;
+        border: solid darkgray;
     border-top: none;
     height: 80px;
     width: 100%;
@@ -235,14 +235,15 @@ body{
     
     .none-store ul{
         list-style: none;
-        padding: 0px 0px 0px;
         display: flex;
-
+        
     }
     .none-store ul li img{
         height: 50px;
         width: 50px;
+        padding: 0px 15px 0px;
         border-radius: 100%;
+
     }
     .pesq-div{
         display: none;
@@ -261,7 +262,7 @@ body{
     .public{
         background-size: cover;
         height:50vh;
-    width: 71vh;}
+    width: 100%;}
 }
 
 @media (max-width:977px){
