@@ -88,6 +88,7 @@ body{
     width: 50px;
     margin: 10px;
     border-radius: 25px;
+    border: solid 4px rgb(221, 58, 148);
 }
 .mar-flex h2{
     font-size: 25px;
@@ -108,6 +109,7 @@ body{
 .nav-icons2 img {
     height: 35px;
     margin: 10px 0px 0px 12px;
+    
 }
 .nav-icons2 img:hover{
     -moz-transform: scale(1.1);
@@ -143,6 +145,7 @@ body{
 .stores-bor .one-storie img{
     height: 50px;
     border-radius: 25px;
+    border: solid 4px rgb(221, 58, 148);
 }
 .profile-name{
     padding: 10px;
@@ -174,6 +177,7 @@ body{
 .two-storie img {
     height: 50px;
     border-radius: 25px;
+    border: solid 4px rgb(221, 58, 148);    
 }
 .flex-seguir .two-storie h2{
     font-size: 18px;
