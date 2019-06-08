@@ -207,8 +207,13 @@ body{
     color: rgba(0, 0, 0, 0.356);
     margin: 30px 0px 0px 25px;
 }
+/* stories mobile */
+
 .none-store{
     display: none;
+}
+.stories-flex{
+    display: inline-block;
 }
     
     
@@ -231,12 +236,13 @@ body{
     .none-store ul{
         list-style: none;
         padding: 0px 0px 0px;
+        display: flex;
 
     }
     .none-store ul li img{
         height: 50px;
         width: 50px;
-        border-radius: 25px;
+        border-radius: 100%;
     }
     .pesq-div{
         display: none;
