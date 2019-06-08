@@ -94,15 +94,25 @@ body{
     height: 75vh;
     width: 75vh;
 }
+.flex-column .icons-foots{
+    height: 20px;    
+    border:black solid;
+}
 .nav-icons2 img {
     height: 35px;
     margin-top: 10px;
+}
+.likes-marg p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
 }
   /* Stores desktop */
 .stores-bor{
     border: solid 1px rgba(0, 0, 0, 0.13);
     width: 293px;
-    height: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
 }
 .stores-bor .history{
     display: flex;
@@ -120,18 +130,34 @@ body{
     height: 50px;
     border-radius: 25px;
 }
-.stores-bor .one-storie .profile-name{
+.profile-name{
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-.stores-bor .one-storie .profile-descrition{
+.profile-descrition{
     margin: 35px 0px 0px -65px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.445);
 }
+#profile-descrition2{
+ margin: 35px 0px 0px -105px;
+ font-size: 15px;
+}
+#profile-descrition3{
+    margin: 35px 0px 0px -150px;
+}
+.stores-bor .two-storie{
 
+    height: 15px;
+    margin: 50px 0px 0px 10px;
+    display: flex;
+}
+.stores-bor .two-storie img {
+    height: 50px;
+    border-radius: 25px;
+}
 .none-store{
     display: none;
 }
@@ -139,7 +165,7 @@ body{
     
 
 
-@media (max-width:1362px){
+@media (max-width:800px){
     .none-store{
         display: flex;
     justify-content: space-around;
