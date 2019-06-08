@@ -223,7 +223,7 @@ body{
     .none-store{
         display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
         border: solid darkgray;
     border-top: none;
     height: 80px;
@@ -238,11 +238,17 @@ body{
         display: flex;
         
     }
+    .none-store ul li{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 14px 0px;
+    }
     .none-store ul li img{
         height: 50px;
         width: 50px;
-        padding: 0px 15px 0px;
-        border-radius: 100%;
+        border-radius: 50%;
+        border: solid 4px rgb(221, 58, 148);
+
 
     }
     .pesq-div{
